@@ -1,4 +1,4 @@
-# Práctica de Integración Continua con GitHub Actions - Jostin Wilmer Perez
+# Práctica de Integración Continua con GitHub Actions - Jostin Perez
 
 Proyecto simple de Hola Mundo en JavaScript que usa GitHub Actions para enviar notificaciones automáticas a ntfy.sh/devops-itla cada vez que se hace push a la rama main.
 

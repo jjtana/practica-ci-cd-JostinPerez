@@ -15,16 +15,16 @@ jobs:
       - name: 🟢 Ejecutar Hola Mundo
         run: node index.js
 
-      - name: Enviar notificación a ntfy.sh
+      - name: 📢 Enviar notificación a ntfy.sh
         run: |
           curl -X POST \
             -H "Title: Despliegue Exitoso 🚀" \
-            -H "Tags: rocket, tada" \
+            -H "Tags: rocket,tada" \
             -d "¡Hola Mundo desplegado con éxito!
 
 Repositorio: ${{ github.repository }}
 Usuario: ${{ github.actor }}
 Rama: main
 
-¡Integración Continua activada correctamente! " \
+¡Integración Continua activada correctamente! 🎉" \
             https://ntfy.sh/devops-itla
